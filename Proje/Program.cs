@@ -11,7 +11,7 @@ namespace Proje
         static void Main(string[] args)
         {
             Console.WriteLine("Lütfen_Cinsiyetinizi_Secin_(E veya K)");
-            string cinsiyet = Console.ReadLine();
+            string cinsiyet = Console.ReadLine().ToUpper();
 
             Console.WriteLine("Yaşınızı_Girin");
             int yas = Convert.ToInt32(Console.ReadLine());
